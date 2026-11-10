@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [agentic-task-dispatcher](https://github.com/zqpmo/agentic-task-dispatcher) | Deterministic multi-board task controller: contract checks, reconciliation, dry-run default | **Architecture prototype** | Not a production scheduler; lock/CAS/executor-ack are documented limitations, not guaranteed |
 | [file-flow](https://github.com/zqpmo/file-flow) | Rule-first file inbound engine: scan → classify → move → journal, optional LLM pending drain | **Usable offline tool** (stdlib Python) | Local file moves only; `--ai` sends filenames/paths to *your* LLM endpoint; default is dry-run (`--execute` to move) |
-| [policy-review-workbench](https://github.com/zqpmo/policy-review-workbench) | Offline policy-review flow: parse → compare → QC → export with CASE acceptance tests | **Offline prototype / flow demo** | Mock parse (does **not** read file bodies); exports are text/CSV/JSON drafts — not final legal conclusions |
+| [policy-review-workbench](https://github.com/zqpmo/policy-review-workbench) | Offline policy-review flow: parse → compare → QC → export with CASE acceptance tests | **Offline prototype / flow demo** | Mock parse (does **not** read file bodies). **Module export:** text/CSV/JSON. **UI export:** HTML-wrapped `.doc`/`.xls` (not native Office). Not final legal conclusions |
 
 ## Principles
 

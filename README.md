@@ -12,10 +12,6 @@
 | [file-flow](https://github.com/zqpmo/file-flow) | Rule-first file inbound engine: scan → classify → move → journal, optional LLM pending drain | **Usable offline tool** (stdlib Python) | Local file moves only; `--ai` sends filenames/paths to *your* LLM endpoint; default is dry-run (`--execute` to move) |
 | [policy-review-workbench](https://github.com/zqpmo/policy-review-workbench) | Offline policy-review flow: parse → compare → QC → export with CASE acceptance tests | **Offline prototype / flow demo** | Mock parse (does **not** read file bodies); exports are text/CSV/JSON drafts — not final legal conclusions |
 
-### Also on this profile
-
-- [doublecmd](https://github.com/zqpmo/doublecmd) — **Fork** of the upstream Double Commander file manager, kept for study / local experiments. Not original work unless a commit says otherwise.
-
 ## Principles
 
 1. **Dry-run first** — previews before destructive moves or production writes.
